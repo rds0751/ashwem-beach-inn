@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ocean: #003366;
+  --sand: #F5F1E9;
+  --sunset: #FF8C42;
+}
+
+body {
+  @apply bg-sand text-ocean font-inter antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-poppins;
+}
