@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { BOOKING_URL } from '../constants';
-import { Calendar, Users, ShieldCheck, CreditCard } from 'lucide-react';
+import { Calendar, ShieldCheck, CreditCard } from 'lucide-react';
 
 export default function Book() {
   const [activeTab, setActiveTab] = useState<'individual' | 'corporate'>('individual');

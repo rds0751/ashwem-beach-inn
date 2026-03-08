@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
-import { Bed, Users, Layout, Waves, Tv, Wind } from 'lucide-react';
+import { Bed, Users, Layout, Waves } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { BOOKING_URL } from '../constants';
 
 const rooms = [
   {

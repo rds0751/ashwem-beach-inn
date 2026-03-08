@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Gift, Send } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import { BOOKING_URL } from '../constants';
 
 export default function ExitIntentPopup() {

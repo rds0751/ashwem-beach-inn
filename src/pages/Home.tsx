@@ -1,10 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { 
-  Wifi, 
   Waves, 
-  Users, 
-  Coffee, 
   Palmtree, 
   ShieldCheck, 
   Wine, 
@@ -13,7 +10,7 @@ import {
   ArrowRight,
   CheckCircle2
 } from 'lucide-react';
-import { BOOKING_URL, WHATSAPP_URL } from '../constants';
+import { WHATSAPP_URL } from '../constants';
 
 export default function Home() {
   const fadeInUp = {

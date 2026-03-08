@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { BOOKING_URL, WHATSAPP_URL } from '../constants';
+import { WHATSAPP_URL } from '../constants';
 
 export default function Footer() {
   return (

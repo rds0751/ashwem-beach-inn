@@ -1,7 +1,6 @@
 import { motion, useScroll, useSpring } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Send, Users, Calendar, ArrowRight } from 'lucide-react';
-import { BOOKING_URL } from '../constants';
+import { Users, Calendar, ArrowRight } from 'lucide-react';
 
 export default function StickyBookingBar() {
   const { scrollYProgress } = useScroll();
