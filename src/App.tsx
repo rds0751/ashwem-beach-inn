@@ -11,10 +11,12 @@ import Rooms from './pages/Rooms';
 import Gallery from './pages/Gallery';
 import ExitIntentPopup from './components/ExitIntentPopup';
 import StickyBookingBar from './components/StickyBookingBar';
+import SeoManager from './components/SeoManager';
 
 function App() {
   return (
     <Router>
+      <SeoManager />
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
